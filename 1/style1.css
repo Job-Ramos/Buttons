@@ -1,0 +1,434 @@
+.título {
+    font-size: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.buttons {
+   align-items: center;
+}
+
+.primerafila {
+    
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(1fr);
+    gap: 15px;
+    padding: 10px 12px;
+    height: 35px;   
+}
+
+.button1 {
+    font-family:'Arial Narrow', Arial;
+    bottom: 10px;
+    color: #000;
+    border: none;
+    border-radius: 3px;
+    background-color: transparent;
+    padding: 4px 10px;
+}
+
+.button2 {
+    font-family:'Arial Narrow', Arial;
+    color: black;
+    background-color: rgb(185, 180, 180);
+    border: none;
+    padding: 4px 12px;
+    border-radius: 4px;
+}
+
+.button3 {
+    font-family:'Arial Narrow', Arial;
+    color:white;
+    background-color: rgb(46, 41, 41);
+    border: none;
+    padding: 4px 12px;
+    border-radius: 4px;
+}
+
+.button4 {
+    font-family:'Arial Narrow', Arial;
+    color:white;
+    background-color: rgb(0, 0, 0);
+    border: none; 
+    padding: 4px 12px;
+    border-radius: 4px;
+}
+
+.button5 {
+    font-family:'Arial Narrow', Arial;
+ border: none;  
+ background-color: transparent;
+ padding: 4px 12px;
+ 
+}
+
+.segundafila{
+    font-family:'Arial Narrow', Arial;
+    display: grid;
+    height: 35px auto;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: repeat(1fr);
+    gap: 15px;
+    padding: 10px 12px;
+    
+  --hover-bg: #910b76;
+  --hover-text: #000;
+  color: #fff;
+  border: 1px solid var(--bg);
+  border-radius: 4px;
+  padding: 0.8em 2em;
+  background: var(--bg);
+  transition: 0.2s;
+}
+
+.segundafila:hover {
+  color: var(--hover-text);
+  transform: translate(-0.25rem,-0.25rem);
+  background: var(--hover-bg);
+  box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+.segundafila:active {
+  transform: translate(0);
+  box-shadow: none;
+}
+    
+    
+    
+
+
+.card_buttoncinco {
+    font-family:'Arial Narrow', Arial;
+    color:white;
+    border: none;
+    background-color:rgb(64, 227, 208);
+    padding: 4px 12px;
+    border-radius: 4px;
+    height: 35px;
+
+}
+
+.card_button6{
+    font-family:'Arial Narrow', Arial;
+    color:white;
+    border: none;
+    background-color:rgb(53, 105, 209);
+    padding: 4px 12px;
+    border-radius: 4px;
+    
+}
+
+.card_button7 {
+    font-family:'Arial Narrow', Arial;
+    color:white;
+    border: none;
+    background-color:rgb(41, 160, 200);
+    padding: 4px 12px;
+    border-radius: 4px;
+}
+
+.card_button8 {
+    font-family:'Arial Narrow', Arial;
+    color:white;
+    border: none;
+    background-color:rgb(27, 222, 137);
+    padding: 4px 12px;
+    border-radius: 4px;
+}
+
+.card_button9 {
+    font-family:'Arial Narrow', Arial;
+    color:black;
+    border: none;
+    background-color:rgb(247, 233, 83);
+    padding: 4px 12px;
+    border-radius: 4px;
+}
+
+.card_button10 {
+    font-family:'Arial Narrow', Arial;
+    color:white;
+    border: none;
+    background-color:rgb(238, 46, 87);
+    padding: 4px 12px;
+    border-radius: 4px; 
+}
+
+.card_button11 {
+    font-family:'Arial Narrow', Arial;
+    color:rgb(34, 174, 157);
+    border: none;
+    background-color:rgb(217, 255, 251);
+    padding: 4px 12px;
+    border-radius: 4px;
+    height: 35px
+}
+
+.card_button12 {
+    font-family:'Arial Narrow', Arial;
+    color:rgb(53, 105, 209);
+    border: none;
+    background-color:rgb(230, 238, 255);
+    padding: 4px 12px;
+    border-radius: 4px; 
+}
+
+.card_button13 {
+    font-family:'Arial Narrow', Arial;
+    color:rgb(41, 160, 200);
+    border: none;
+    background-color:rgb(224, 237, 241);
+    padding: 4px 12px;
+    border-radius: 4px;
+}
+
+.card_button14 {
+    font-family:'Arial Narrow', Arial;
+    color:rgb(20, 131, 83);
+    border: none;
+    background-color:rgb(217, 248, 234);
+    padding: 4px 12px;
+    border-radius: 4px;
+     border-radius: 4px;
+}
+
+.card_button15{
+    font-family:'Arial Narrow', Arial;
+    color:rgb(184, 172, 46);
+    border: none;
+    background-color:rgb(252, 251, 230);
+    padding: 4px 12px;
+    border-radius: 4px;
+     border-radius: 4px;
+}
+
+.card_button16 {
+    font-family:'Arial Narrow', Arial;
+    color:rgb(200, 62, 92);
+    border: none;
+    background-color:rgb(247, 232, 235);
+    padding: 4px 12px;
+    border-radius: 4px;
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #12b9f1;
+    box-shadow: 0px 15px 24px rgba(83, 46, 229, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+  button:active {
+    transform: translateY(-1px);
+  }
+
+
+.tercerafila {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(1fr);
+    gap: 15px;
+    padding: 10px 5px;
+}
+
+.card_button17 {
+    font-family:'Arial Narrow', Arial;
+    color:rgb(60, 58, 58);
+    background-color:white;
+    padding: 4px ;
+    border-radius: 4px; 
+    border: 1px solid;
+    border-color: #c6bfbf;
+    width: 60px;
+    height: 24px;
+     border-radius: 4px;
+     font-family: inherit;
+     position: relative;
+     overflow: hidden;
+     z-index: 1;
+     box-shadow: 6px 6px 12px #c5c5c5;
+                
+ }
+ 
+ .card_button17::before{
+     content: '';
+     width: 0;
+     height: 3em;
+     position: absolute;
+     top: 0;
+     left: 0;
+     background-image: linear-gradient(to right, #47f381 0%, #c8bf11 100%);
+     transition: .5s ease;
+     display: block;
+     z-index: -1;
+ }
+ 
+ .card_button17:hover::before {
+ 
+     width: 6em;
+ }
+
+
+.card_button18 {
+    font-family:'Arial Narrow', Arial;
+    color:rgb(60, 58, 58);
+    background-color:white;
+    padding: 4px 12px;
+    border-radius: 4px; 
+    border: 1px solid;
+    border-color: #c6bfbf;
+    width: 60px;
+    height: 26px;
+    font-family: inherit;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #c5c5c5;
+               
+}
+
+.card_button18::before{
+    content: '';
+    width: 0;
+    height: 3em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #47f381 0%, #c8bf11 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+.card_button18:hover::before {
+
+    width: 6em;
+}
+
+
+.card_button19 {
+    
+    color:rgb(60, 58, 58);
+    background-color:white;
+    padding: 4px 12px;
+    border-radius: 4px; 
+    border: 1px solid;
+    border-color: #c6bfbf;
+    width: 70px;
+    height: 29px;
+    font-size: 14px;
+    text-align: center;
+    font-family: inherit;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #c5c5c5;
+               
+}
+
+.card_button19::before{
+    content: '';
+    width: 0;
+    height: 3em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #47f381 0%, #c8bf11 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+.card_button19:hover::before {
+
+    width: 6em;
+}
+
+.card_button20 {
+    color:rgb(17, 17, 17);
+    background-color:white;
+    padding: 4px 12px;
+    border-radius: 4px; 
+    border: 1px solid;
+    border-color: #c6bfbf;
+    width: 83px;
+    height: 34px;
+    font-size: 18px;
+    text-align: center;
+    font-family: inherit;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #c5c5c5;
+               
+}
+
+.card_button20::before{
+    content: '';
+    width: 0;
+    height: 3em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #47f381 0%, #c8bf11 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+.card_button20:hover::before {
+
+    width: 6em;
+}
+
+
+.card_button21 {
+    font-family:'Arial Narrow', Arial;
+    color:rgb(64, 61, 61);
+    background-color:white;
+    border-radius: 4px; 
+    border: 1px solid;
+    border-color: #c6bfbf;
+    width: 90px;
+    height: 38px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    font-family: inherit;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #c5c5c5;
+               
+}
+
+.card_button21::before{
+    content: '';
+    width: 0;
+    height: 3em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #47f381 0%, #c8bf11 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+.card_button21:hover::before {
+
+    width: 6em;
+}
+
+ 
